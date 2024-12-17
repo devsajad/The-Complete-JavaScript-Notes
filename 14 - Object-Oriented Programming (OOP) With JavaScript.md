@@ -1023,7 +1023,7 @@ Calculator.describe(); // Outputs: "This is a Calculator class. The multiply met
 
 ### 6. Limitations of Static Methods
 
-- We cannot use static methods with instances of the constructor or class because they are not in the prototype of the class. Thus, instances cannot inherit static methods, as they exist in the namespace of the class itself.
+- We cannot use static methods with instances of the constructor or class because they are not in the prototype of the class. Thus, instances cannot inherit static methods, as the static methodes exist in the namespace of the class itself.
 
 ```javascript
 const john = new Person("John");
